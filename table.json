@@ -1,38 +1,4 @@
-"tableName": [
-
-      {
-
-          "ID": 1,
-
-          "TextValue": "Test1",
-
-          "DecimalValue": 1.10,
-
-          "DateTime": "1/1/2016 1:01:01 AM",
-
-          "PhoneValue": "111 111 1111",
-
-          "EmailValue": "email1@appsheet.com"
-
-      },
-
-      {
-
-          "ID": 2,
-
-          "TextValue": "Test2",
-
-          "DecimalValue": 1.11,
-
-          "DateTime": "2/1/2016 1:01:01 AM",
-
-          "PhoneValue": "111 112 1111",
-
-          "EmailValue": "email2@appsheet.com"
-
-      }
-
-    ],
+{
 "schemas": {
     "tableName": {
       "type": "object",
@@ -66,4 +32,5 @@
         }
       }
     }
+}
 }
