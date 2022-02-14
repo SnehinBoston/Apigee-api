@@ -1,36 +1,39 @@
 {
-"schemas": {
-    "tableName": {
-      "type": "object",
-      "required": [
-        "ID",
-        "TextValue",
-        "DecimalValue",
-        "DateTime",
-        "PhoneValue",
-        "EmailValue"
-      ],
-      "additionalProperties": false,
-      "properties": {
-        "ID": {
-          "type": "number"
-        },
-        "TextValue": {
-          "type": "string"
-        },
-        "DecimalValue": {
-          "type": "number"
-        },
-        "DateTime": {
-          "type": "string"
-        },
-        "PhoneValue": {
-          "type": "string"
-        },
-        "EmailValue": {
-          "type": "string"
-        }
+
+  "appsheet": [
+
+      {
+
+          "ID": 1,
+
+          "TextValue": "Test1",
+
+          "DecimalValue": 1.10,
+
+          "DateTime": "1/1/2016 1:01:01 AM",
+
+          "PhoneValue": "111 111 1111",
+
+          "EmailValue": "email1@appsheet.com"
+
+      },
+
+      {
+
+          "ID": 2,
+
+          "TextValue": "Test2",
+
+          "DecimalValue": 1.11,
+
+          "DateTime": "2/1/2016 1:01:01 AM",
+
+          "PhoneValue": "111 112 1111",
+
+          "EmailValue": "email2@appsheet.com"
+
       }
-    }
-}
+
+    ]
+
 }
